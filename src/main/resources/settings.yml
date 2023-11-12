@@ -1,20 +1,14 @@
 # If set to false, particles will not spawn
-status: true
-
-# Interval in milliseconds
-interval: 5
+enabled: true
 
 # Here you can find every particle: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Particle.html
 particle: END_ROD
 
+# Interval in ticks (20 ticks = 1 second)
+interval: 5
+
 # The radius in which the particles spawn around the player
-radius: 45
-
-# The minimum height from which particles spawn. Note: It has to be a negative number for particles to appear correctly.
-minHeight: -20
-
-# The maximum height up to which particles spawn.
-maxHeight: 20
+radius: 20
 
 # The number of particles to spawn
-count: 250
+count: 100
