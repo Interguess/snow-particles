@@ -1,0 +1,13 @@
+name: IgSnowParticles
+version: '1.0'
+main: de.interguess.igsnowparticles.IgSnowParticles
+api-version: '1.20'
+author: Interguess
+description: Snow particles plugin for Minecraft
+
+commands:
+  igsnowparticles:
+    description: IgSnowParticles command
+    usage: /<command> [reload]
+    permission: igsnowparticles.command
+    aliases: [igsp, snowparticles, snowpart, snowp, sp]
