@@ -14,11 +14,14 @@ repositories {
 }
 
 dependencies {
+    implementation 'com.google.inject:guice:7.0.0'
+
     compileOnly 'io.papermc.paper:paper-api:1.20.2-R0.1-SNAPSHOT'
     compileOnly 'org.projectlombok:lombok:1.18.26'
-    compileOnly 'com.google.inject:guice:7.0.0'
+
+    annotationProcessor 'org.projectlombok:lombok:1.18.26'
 }
 
-tasks.withType(JavaCompile) {
+tasks.withType(JavaCompile).configureEach {
     options.encoding = 'UTF-8'
 }

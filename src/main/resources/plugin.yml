@@ -10,4 +10,4 @@ commands:
     description: IgSnowParticles command
     usage: /<command> [reload]
     permission: igsnowparticles.command
-    aliases: [igsp, snowparticles, snowpart, snowp, sp]
+    aliases: [snowparticles]

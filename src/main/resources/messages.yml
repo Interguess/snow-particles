@@ -2,6 +2,5 @@
 # Customize the settings and messages according to your preferences
 
 prefix: "&7[&b&lIgSnowParticles§r&7] &r"
-no-permission: "&cYou don't have permission to do that!"
 reload: "&aSuccessfully reloaded the plugin!"
-reloadError: "&cAn error occurred while reloading the plugin!"
+reload-error: "&cAn error occurred while reloading the plugin!"
