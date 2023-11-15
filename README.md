@@ -7,3 +7,6 @@ The visually impressive snow effects enhance the aesthetic quality of the server
 The plugin stands out for its finely tuned visual effects that immerse players in a winter wonderland.
 It offers numerous customization options to adjust snow effects to the server's needs without compromising performance.
 Snow Particles thus create a comprehensive and detailed environment that invites players to experience the beauty of winter in Minecraft.
+
+## Get Snow Particles
+https://modrinth.com/plugin/snow-particles
