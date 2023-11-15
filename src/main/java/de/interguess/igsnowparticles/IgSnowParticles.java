@@ -13,6 +13,8 @@ public final class IgSnowParticles extends JavaPlugin {
 
     private ParticleTask particleTask;
 
+    private Metrics metrics;
+
     @Override
     public void onEnable() {
         this.getLogger().info("IgSnowParticles has been enabled!");
@@ -22,14 +24,20 @@ public final class IgSnowParticles extends JavaPlugin {
         SettingsConfig settingsConfig = injector.getInstance(SettingsConfig.class);
 
         particleTask = injector.getInstance(ParticleTask.class);
-        particleTask.runTaskTimer(this, 0, settingsConfig.getInterval());
+        particleTask.runTaskTimerAsynchronously(this, 0, settingsConfig.getInterval());
         particleTask.run();
+
+        metrics = new Metrics(this, 20304);
     }
 
     @Override
     public void onDisable() {
         if (particleTask != null) {
             particleTask.cancel();
+        }
+
+        if (metrics != null) {
+            metrics.shutdown();
         }
     }
 
