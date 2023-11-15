@@ -1,6 +1,6 @@
 # Configuration file for IgSnowParticles plugin
 # Customize the settings and messages according to your preferences
 
-prefix: "&7[&b&lIgSnowParticles§r&7] &r"
-reload: "&aSuccessfully reloaded the plugin!"
+prefix: "&9&lIgSnowParticles &r&8» &7"
+reload: "Successfully reloaded the plugin!"
 reload-error: "&cAn error occurred while reloading the plugin!"

@@ -25,7 +25,7 @@ public class ParticleTask extends BukkitRunnable {
         double radius = settingsConfig.getRadius();
 
         Bukkit.getOnlinePlayers().forEach(player -> {
-            player.spawnParticle(settingsConfig.getParticle(), player.getLocation(), settingsConfig.getCount(), radius, radius, radius);
+            player.spawnParticle(settingsConfig.getParticle(), player.getLocation(), settingsConfig.getCount(), radius, radius, radius, 0);
         });
     }
 }
